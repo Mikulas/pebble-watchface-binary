@@ -7,8 +7,8 @@
 #define MY_UUID { 0x14, 0x55, 0x7E, 0xD8, 0x8C, 0xF7, 0x4A, 0xF8, 0xA0, 0x10, 0xB9, 0xD8, 0xC5, 0x27, 0x21, 0xB3 }
 PBL_APP_INFO(MY_UUID,
              "Binary", "Mikulas",
-             1, 0, /* App version */
-             DEFAULT_MENU_ICON,
+             1, 1, /* App version */
+             RESOURCE_ID_IMAGE_MENU_ICON,
              APP_INFO_WATCH_FACE);
 
 Window window;
